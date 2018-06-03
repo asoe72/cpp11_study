@@ -80,6 +80,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="auto\AutoFixture.h" />
     <ClInclude Include="rvalue_ref\BigObject.h" />
     <ClInclude Include="rvalue_ref\ObjectFactory.h" />
     <ClInclude Include="rvalue_ref\RValueRefFixture.h" />
@@ -87,6 +88,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="auto\AutoFixture.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="rvalue_ref\BigObject.cpp" />
     <ClCompile Include="rvalue_ref\ObjectFactory.cpp" />

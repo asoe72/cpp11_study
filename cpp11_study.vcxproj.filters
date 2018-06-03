@@ -16,6 +16,9 @@
     <Filter Include="rvalue_ref">
       <UniqueIdentifier>{f2ef72df-a103-46ff-9a4d-0e733d00db7a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="auto">
+      <UniqueIdentifier>{6341b365-6133-459f-accb-c819d081cd08}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -36,6 +39,9 @@
     <ClInclude Include="rvalue_ref\RValueRefFixture.h">
       <Filter>rvalue_ref</Filter>
     </ClInclude>
+    <ClInclude Include="auto\AutoFixture.h">
+      <Filter>auto</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -52,6 +58,9 @@
     </ClCompile>
     <ClCompile Include="rvalue_ref\RValueRefFixture.cpp">
       <Filter>rvalue_ref</Filter>
+    </ClCompile>
+    <ClCompile Include="auto\AutoFixture.cpp">
+      <Filter>auto</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
