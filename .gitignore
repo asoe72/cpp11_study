@@ -2,6 +2,7 @@
 *.aps
 *.suo
 *.user
+*.sdf
 *.opensdf
 /Debug
 /Release
