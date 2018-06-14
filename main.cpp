@@ -23,6 +23,7 @@ int main(int argc, char* argv[])
 	AtomicFixture atomic_fx;
 	atomic_fx.test_async();
 	atomic_fx.test_sync();
+	atomic_fx.test_sync2();
 
 
 	return 0;
