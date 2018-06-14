@@ -80,20 +80,24 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="atomic\AtomicFixture.h" />
     <ClInclude Include="auto\AutoFixture.h" />
     <ClInclude Include="rvalue_ref\BigObject.h" />
     <ClInclude Include="rvalue_ref\ObjectFactory.h" />
     <ClInclude Include="rvalue_ref\RValueRefFixture.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="uniform_init\UniformInitFixture.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="atomic\AtomicFixture.cpp" />
     <ClCompile Include="auto\AutoFixture.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="rvalue_ref\BigObject.cpp" />
     <ClCompile Include="rvalue_ref\ObjectFactory.cpp" />
     <ClCompile Include="rvalue_ref\RValueRefFixture.cpp" />
     <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="uniform_init\UniformInitFixture.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

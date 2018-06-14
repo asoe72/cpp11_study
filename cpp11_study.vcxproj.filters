@@ -19,6 +19,12 @@
     <Filter Include="auto">
       <UniqueIdentifier>{6341b365-6133-459f-accb-c819d081cd08}</UniqueIdentifier>
     </Filter>
+    <Filter Include="atomic">
+      <UniqueIdentifier>{c6d819fd-1ca3-47f8-bb63-768bd942b208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uniform_init">
+      <UniqueIdentifier>{26744590-07e9-4aa2-8e4c-67b644741326}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -42,6 +48,12 @@
     <ClInclude Include="auto\AutoFixture.h">
       <Filter>auto</Filter>
     </ClInclude>
+    <ClInclude Include="atomic\AtomicFixture.h">
+      <Filter>atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="uniform_init\UniformInitFixture.h">
+      <Filter>uniform_init</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -61,6 +73,12 @@
     </ClCompile>
     <ClCompile Include="auto\AutoFixture.cpp">
       <Filter>auto</Filter>
+    </ClCompile>
+    <ClCompile Include="atomic\AtomicFixture.cpp">
+      <Filter>atomic</Filter>
+    </ClCompile>
+    <ClCompile Include="uniform_init\UniformInitFixture.cpp">
+      <Filter>uniform_init</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
